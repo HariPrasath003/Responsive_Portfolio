@@ -368,3 +368,28 @@ nav ul li a:hover {
         width: 100%;
     }
 }
+
+/* Styling for the Download Resume button */
+.hero-content .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #f4d03f;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background-color: #e2ac10;
+    transform: scale(1.05);
+}
+
+.hero-content .btn:active {
+    background-color: #c89d08;
+    transform: scale(0.98);
+}
